@@ -5,7 +5,7 @@ import pandas as pd
 
 # --- Configuration ---
 # This URL should point to your running FastAPI server.
-API_URL = "http://127.0.0.1:8000/todos/"
+API_URL = "https://mytodoappname.azurewebsites.net/todos/"
 
 # --- Helper Functions ---
 def get_all_todos():
